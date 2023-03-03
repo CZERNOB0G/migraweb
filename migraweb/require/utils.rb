@@ -18,7 +18,7 @@ module Utils
     timestamp = Time.now.strftime('%Y-%m-%d %H:%M:%S')
     log = "[#{timestamp}]#{text}"
     puts log
-    write_file('./migrastart.log', 'a', log)
+    write_file('./migraweb.log', 'a', log)
   end
 
   def get_avoid(filename, account)
